@@ -1,8 +1,6 @@
 import { Metadata } from 'next';
-import Image from 'next/image';
-import { motion } from 'framer-motion';
-import { useState } from 'react';
 import { generateMetadata } from '@/lib/metadata';
+import ProjectsContent from './ProjectsContent';
 
 export const metadata: Metadata = generateMetadata({
   title: 'Our Projects',
@@ -11,7 +9,9 @@ export const metadata: Metadata = generateMetadata({
   ogImage: '/images/projects/projects-hero.jpg'
 });
 
-'use client';
+export default function ProjectsPage() {
+  return <ProjectsContent />;
+}
 import { FaBuilding, FaHome, FaIndustry, FaSearch } from 'react-icons/fa';
 
 const projects = [
