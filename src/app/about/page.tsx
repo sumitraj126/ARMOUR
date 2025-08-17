@@ -1,9 +1,6 @@
 import { Metadata } from 'next';
-import Image from 'next/image';
-import Link from 'next/link';
-import { motion } from 'framer-motion';
-import { FaAward, FaUsers, FaHandshake, FaTools } from 'react-icons/fa';
 import { generateMetadata } from '@/lib/metadata';
+import AboutContent from './AboutContent';
 
 export const metadata: Metadata = generateMetadata({
   title: 'About Us',
@@ -12,9 +9,9 @@ export const metadata: Metadata = generateMetadata({
   ogImage: '/images/team/team-hero.jpg'
 });
 
-'use client';
-
-const stats = [
+export default function AboutPage() {
+  return <AboutContent />;
+}
   { number: '15+', label: 'Years Experience' },
   { number: '200+', label: 'Projects Completed' },
   { number: '50+', label: 'Team Members' },
