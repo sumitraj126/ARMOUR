@@ -1,0 +1,33 @@
+{
+  "name": "armour-construction",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@heroicons/react": "^2.2.0",
+    "@types/react-icons": "^2.2.7",
+    "framer-motion": "^12.23.12",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^5.5.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.16",
+    "@types/next": "^8.0.7",
+    "@types/node": "^24.3.0",
+    "@types/react": "^19.1.10",
+    "@types/react-dom": "^19.1.7",
+    "autoprefixer": "^10.4.15",
+    "eslint": "^8.47.0",
+    "eslint-config-next": "^13.4.19",
+    "next": "^15.4.6",
+    "postcss": "^8.4.28",
+    "tailwindcss": "^3.3.3",
+    "typescript": "^5.9.2"
+  }
+}
